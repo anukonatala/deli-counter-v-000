@@ -13,3 +13,5 @@ def line(persons)
 end
 
 line([])
+line([])
+line([])
