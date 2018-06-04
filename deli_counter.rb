@@ -1,21 +1,21 @@
 # Write your code here.
 
-def line(persons)
-  if persons.length == 0
+def line(katz_deli)
+  if katz_deli.length == 0
     "The line is currently empty."
   else
     string1 = "The line is currently:"
     string2 = ""
-    persons.each_with_index { |person,index| string2 << " #{index+1}. " << "#{person}"}
+    katz_deli.each_with_index { |person,index| string2 << " #{index+1}. " << "#{person}"}
     string1 << string2
  end
 end
 
-def take_a_number(persons,name)
-  "Welcome, #{name}. You are number #{persons.length + 1} in line."
+def take_a_number(katz_deli,name)
+  "Welcome, #{name}. You are number #{katz_deli.length + 1} in line."
 end
 
-def now_serving(persons)
+def now_serving(katz_deli)
 
 end
 
