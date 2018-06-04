@@ -26,4 +26,4 @@ end
 
 end
 
-now_serving([])
+puts #{now_serving([])}
