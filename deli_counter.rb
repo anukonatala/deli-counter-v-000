@@ -11,6 +11,6 @@ def line(persons)
  end
 end
 
-def take_a_number(persons)
-
+def take_a_number(persons,name)
+  
 end
