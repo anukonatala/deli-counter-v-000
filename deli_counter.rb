@@ -19,6 +19,7 @@ def now_serving(katz_deli)
   if katz_deli.length == 0
     "There is nobody waiting to be served!"
   else
+    currentPerson = katz_deli.front
     
 end
 
