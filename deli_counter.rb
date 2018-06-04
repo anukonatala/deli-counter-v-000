@@ -22,7 +22,6 @@ def now_serving(katz_deli)
     currentPerson = katz_deli.front
     "Currently serving #{currentPerson}."
   end
-end
 
 end
 
