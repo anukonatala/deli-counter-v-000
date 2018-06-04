@@ -9,8 +9,6 @@ def line(persons)
     persons.each_with_index { |person,index| string2 << " #{index+1}. " << "#{person}"}
     string1 << string2
  end
-
 end
 
-puts "#{line([])}"
-puts "#{line(["Logan", "Avi", "Spencer"])}"
+
