@@ -6,7 +6,7 @@ def line(persons)
   else
     string1 = "The line is currently:"
     string2 = ""
-    persons.each_with_index do {|person,index|  (string2 + " #{index}. " + "#{person}")}
+    persons.each_with_index do { |person,index|  (string2 + " #{index}. " + "#{person}")}
     string1 + string2
  end
 
