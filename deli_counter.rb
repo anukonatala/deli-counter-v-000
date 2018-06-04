@@ -25,4 +25,4 @@ def now_serving(katz_deli)
 
 end
 
-puts "#{now_serving([])}"
+puts "#{now_serving(['anusha','konatala'])}"
