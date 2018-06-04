@@ -12,5 +12,5 @@ def line(persons)
 
 end
 
-line([])
-line(["Logan", "Avi", "Spencer"])
+puts "#{line([])}"
+puts "#{line(["Logan", "Avi", "Spencer"])}"
