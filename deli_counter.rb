@@ -20,7 +20,8 @@ def now_serving(katz_deli)
     "There is nobody waiting to be served!"
   else
     currentPerson = katz_deli.front
-    
+    "Currently serving #{currentPerson}."
+  end
 end
 
 end
