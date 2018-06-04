@@ -15,4 +15,4 @@ def take_a_number(persons,name)
   "Welcome, #{name}. You are number #{persons.index(name)} in line"
 end
 
-take_a_number(["Logan", "Avi", "Spencer"], "Ada")
+puts "#{take_a_number(["Logan", "Avi", "Spencer"], "Ada")}"
