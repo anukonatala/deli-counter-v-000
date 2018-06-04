@@ -12,5 +12,6 @@ def line(persons)
 end
 
 def take_a_number(persons,name)
-  
+  "Welcome, #{name}. You are number #{persons.index(name)} in line"
 end
+
