@@ -13,5 +13,4 @@ def line(persons)
 end
 
 line([])
-line([])
-line([])
+line(["Logan", "Avi", "Spencer"])
