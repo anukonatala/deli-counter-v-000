@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     string1 = "The line is currently:"
     string2 = ""
-    katz_deli.each_with_index { |person,index| string2 << " #{index+1}. " << "#{person}"}
+    katz_deli.each_with_index { |name,index| string2 << " #{index+1}. " << "#{person}"}
     string1 << string2
  end
 end
