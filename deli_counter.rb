@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     string1 = "The line is currently:"
     string2 = ""
-    katz_deli.each_with_index { |name,index| string2 << " #{index+1}. " << "#{person}"}
+    katz_deli.each_with_index { |name,index| string2 << " #{index+1}. " << "#{name}"}
     string1 << string2
  end
 end
@@ -16,6 +16,8 @@ def take_a_number(katz_deli,name)
 end
 
 def now_serving(katz_deli)
+  if katz_deli.length == 0
+    
 
 end
 
