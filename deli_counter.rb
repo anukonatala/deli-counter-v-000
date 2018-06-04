@@ -15,3 +15,7 @@ def take_a_number(persons,name)
   "Welcome, #{name}. You are number #{persons.length + 1} in line."
 end
 
+def now_serving(persons)
+
+end
+
